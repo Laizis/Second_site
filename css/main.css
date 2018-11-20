@@ -1,0 +1,98 @@
+body{
+    padding:0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+header{
+    background: url(../img/welcometomogo.png) no-repeat center top / cover;
+    height: 750px;
+}
+.clearfix:after{
+    center:"";
+    display: table;
+    width: 100%;
+    clear: both;
+}
+div{
+    box-sizing: border-box;
+}
+.container{
+    weight: 1200px;
+    margin: 0 auto;
+}
+.logo{
+    margin-top: 25px;
+    font-size: 11px;
+    margin-left:285px;
+}
+nav{
+    float:right;
+    margin-top: 25px;
+    margin-right:270px;
+}
+.menu{
+    padding:0;
+    margin:0;
+    display:block;
+}
+.menu li{
+    float:left;
+    display:block;
+}
+.menu a{
+    color: #fff;
+    text-decoration:none;
+    margin: 20px;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-family: Regular, sans-serif;
+    font-weight: bold;
+}
+.menu a:hover{
+    color:#fce38a;
+    text-decoration: underline;
+}
+.titles__first{
+    font-size: 58px;
+    color: #fff;
+    text-align:center;
+    font-family: 'Kaushan Script',sans-serif;
+    margin-top: 130px;
+
+}
+h1{
+    font-size:115px;
+    color: #fff;
+    text-align: center;
+    font-family: Montserrat, sans-serif;
+    text-transform: uppercase;
+    margin: 0;
+}
+hr{
+    border:none;
+    background-color:#fff;
+    color:#fff;
+    height: 2px;
+    width: 50px;
+}
+.button{
+    border: 2px solid #fff;
+    text-align:center;
+    padding:10px 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+    font-size:12px;
+    margin:0;
+    margin-top:50px;
+    display:  block;
+}
+hr1{
+    border:none;
+    background-color:#fff;
+    color:#fff;
+    height:2px;
+    width:200px;
+    margin-top:50px;
+}
