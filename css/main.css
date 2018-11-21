@@ -5,7 +5,7 @@ body{
 }
 header{
     background: url(../img/welcometomogo.png) no-repeat center top / cover;
-    height: 750px;
+    height: 800px;
 }
 .clearfix:after{
     center:"";
@@ -21,14 +21,24 @@ div{
     margin: 0 auto;
 }
 .logo{
-    margin-top: 25px;
-    font-size: 11px;
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 25px;
     margin-left:285px;
+    width: 66px;
+    height: 18px;
+    font-family: Montserrat, sans-serif;
+    color: #fff;
+    font-weight: bold;
+
 }
 nav{
     float:right;
     margin-top: 25px;
-    margin-right:270px;
+    margin-right:250px;
+}
+.banner{
+   height:14px;
 }
 .menu{
     padding:0;
@@ -46,7 +56,6 @@ nav{
     text-transform: uppercase;
     font-size: 12px;
     font-family: Regular, sans-serif;
-    font-weight: bold;
 }
 .menu a:hover{
     color:#fce38a;
@@ -57,7 +66,7 @@ nav{
     color: #fff;
     text-align:center;
     font-family: 'Kaushan Script',sans-serif;
-    margin-top: 130px;
+    margin-top: 115px;
 
 }
 h1{
@@ -67,6 +76,7 @@ h1{
     font-family: Montserrat, sans-serif;
     text-transform: uppercase;
     margin: 0;
+
 }
 hr{
     border:none;
@@ -74,25 +84,68 @@ hr{
     color:#fff;
     height: 2px;
     width: 50px;
+    display:inline-block;
+    margin-top:40px;
+    margin-left:740px;
 }
 .button{
     border: 2px solid #fff;
     text-align:center;
-    padding:10px 30px;
+    padding:7px 25px;
     text-transform: uppercase;
     font-weight: bold;
     color: #fff;
     text-decoration: none;
     font-size:12px;
-    margin:0;
-    margin-top:50px;
-    display:  block;
+    margin-top: 30px;
+    display: inline-block;
+    margin-left: 693px;
 }
-hr1{
-    border:none;
-    background-color:#fff;
+.first_line {
+    border-top: 2px solid #fff;
+    display: inline-block;
+    margin-left: 290px;
+    margin-top: 140px;
+    width:215px;
     color:#fff;
-    height:2px;
-    width:200px;
-    margin-top:50px;
+    font-family:Monsterrat, sans-serif;
+    padding:10px;
+    text-decoration:none;
 }
+.second_line{
+    border-top: 2px solid #fff;
+    display: inline-block;
+    margin-left: 15px;
+    margin-top: 140px;
+    width:215px;
+    color:#fff;
+    font-family:Monsterrat, sans-serif;
+    padding:10px;
+    text-decoration:none;
+}
+.third_line{
+    border-top: 2px solid #fff;
+    display: inline-block;
+    margin-left: 15px;
+    margin-top: 140px;
+    width:215px;
+    color:#fff;
+    font-family:Monsterrat, sans-serif;
+    padding:10px;
+    text-decoration:none;
+}
+.fourth_line{
+    border-top: 2px solid #fff;
+    display: inline-block;
+    margin-left: 15px;
+    margin-top: 140px;
+    width:215px;
+    color:#fff;
+    font-family:Monsterrat, sans-serif;
+    padding:10px;
+    text-decoration:none;
+}
+.lines a:hover{
+    color:#f38181;
+}
+
