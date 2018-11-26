@@ -7,6 +7,8 @@ body{
 header{
     background: url(../img/welcometomogo.png) no-repeat center top / cover;
     height: 800px;
+    width: 1200px;
+
 }
 .clearfix:after{
     content: '';
