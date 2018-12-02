@@ -5,7 +5,7 @@ body{
     min-width: 1200px;
 }
 .first_section{
-    background: url(../img/welcometomogo.png) no-repeat center top / cover;
+    background: url(img/welcometomogo.png) no-repeat center top / cover;
     height: 800px;
     width: 100%;
 
@@ -208,10 +208,23 @@ lines{
 
     margin-top: 50px;
 }
-.first_picture{
+.first_picture {
+    background-image: url(img/users.png);
+    display: inline-flex;
     float: left;
-    display: inline-flex
+    text-decoration: none;
+    text-transform: uppercase;
+    color:  #fff;
+    padding-top: 150px;
+    padding-left: 130px;
+    width: 250px;
+    height: 100px;
+
+
+
+
 }
+
 .third_picture{
     float: right;
     display: inline-flex;
@@ -221,8 +234,12 @@ margin-left: 30px;
 
 }
 .first_picture:hover {
- background: linear-gradient(, #fff, #db7c75);
-
+    background: linear-gradient(#fff, #db7c75);
+    opacity: 0.1;
+}
+.super_team{
+ float:left;
+    display: inline
 }
 
 
