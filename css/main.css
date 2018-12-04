@@ -14,15 +14,15 @@ body{
     clear: both;
 }
 .container{
-    width: 1200px;
+    width: 945px;
     margin: 0 auto;
 }
 .logo{
     display: block;
-    margin-top: 25px;
+    margin-top: 20px;
     font-size: 25px;
     float: left;
-    font-family: Montserrat, sans-serif;
+    font-family: Arial, sans-serif;
     color: #fff;
     font-weight: bold;
 
@@ -43,15 +43,16 @@ body{
 .list{
     float:right;
     display:block;
-    margin-top: 25px;
+    margin-top: 15px;
 }
 .main_menu{
     color: #fff;
     text-decoration:none;
-    margin: 20px;
+    padding-left: 30px;
+    padding-top: 12px;
     text-transform: uppercase;
     font-size: 12px;
-    font-family: Regular, sans-serif;
+    font-family:  'Montserrat';
     border-bottom: 1px solid transparent;
     display: inline-block;
 
@@ -60,92 +61,97 @@ body{
     color:#fce38a;
     border-bottom-color: #fce38a ;
 }
+
+
 .titles__first{
-    margin-top: 75px;
-    font-size: 58px;
+    margin-top: 115px;
+    font-size: 60px;
     color: #fff;
     font-family: 'Kaushan Script',sans-serif;
     text-align: center;
-
-
 }
 .center_text{
-    font-size:115px;
     color: #fff;
-    text-align: center;
-    font-family: Montserrat, sans-serif;
     text-transform: uppercase;
-    margin: 0;
+    font-weight: bold;
+    font-size: 125px;
+    display: block;
+    font-family: arial;
+    text-align: center;
+    margin: 0px auto;
+
 }
 .straight{
     border:none;
     background-color:#fff;
     color:#fff;
-    height: 2px;
+    height: 3px;
     width: 50px;
     display:flex;
     justify-items: center;
-    margin-top: 25px;
+    margin-top: 20px;
 }
 .button{
     border: 2px solid #fff;
     text-align:center;
-    padding:7px 25px;
+    padding:7px 20px;
     text-transform: uppercase;
     font-weight: bold;
     color: #fff;
     text-decoration: none;
     font-size:12px;
-    display: inline-block;
-    margin-top: 50px;
-    margin-left: 535px;
+    display: block;
+    width:80px;
+    margin: 0px auto;
+    font-family: Arial;
+    margin-top: 40px;
 }
 .lines{
     clear: both;
 }
 
-.first_line {
+.first_line:first-child {
     border-top: 2px solid #fff;
     float: left;
     margin-top: 130px;
-    width: 250px;
+    width: 200px;
     color: #fff;
-    font-family: Monsterrat, sans-serif;
+    font-family: Arial;
     text-decoration: none;
-    padding-top: 20px;
+    padding-top: 15px;
     display: inline-flex;
 }
-.second_line{
+.first_line:nth-child(2) {
     border-top: 2px solid #fff;
-    margin-left: 60px;
+    margin-left: 45px;
     margin-top: 130px;
-    width:250px;
+    width:200px;
     color:#fff;
-    font-family:Monsterrat, sans-serif;
+    font-family: Arial;
     padding-left: 0px;
-    padding-top:20px;
+    padding-top:15px;
     text-decoration:none;
     display: inline-flex;
 }
-.third_line{
+.first_line:nth-child(3){
     border-top: 2px solid #fff;
-    margin-left: 60px;
+    margin-left: 45px;
     margin-top: 130px;
-    width:250px;
+    width:200px;
     color:#fff;
-    font-family:Monsterrat, sans-serif;
-    padding-top:20px;
+    font-family: Arial;
+    padding-top:15px;
     text-decoration:none;
     padding-left: 0px;
     display: inline-flex;
 }
-.fourth_line{
+.first_line:last-child{
     border-top: 2px solid #fff;
     margin-top: 130px;
-    width:250px;
+    width:200px;
     color:#fff;
-    font-family:Monsterrat, sans-serif;
-    padding-top:20px;
+    font-family: Arial;
+    padding-top:15px;
     text-decoration:none;
     padding-left: 0px;
     float: right;
@@ -206,7 +212,7 @@ body{
 .pictures{
     margin-top: 50px;
 }
-.first_picture{
+.first_picture:first-child{
     background: url("img/users.png");
     text-decoration: none;
     font-size: 15px;
@@ -220,11 +226,11 @@ body{
     text-align: center;
     padding-top: 130px;
 }
-.third_picture{
+.first_picture:nth-child(2){
     float: right;
     display: inline-flex;
 }
-.second_picture{
+.first_picture:last-child{
 margin-left: 30px;
 }
 .third_section{
