@@ -4,7 +4,7 @@ body{
     font-family: Arial, sans-serif;
     min-width: 1200px;
 }
-.first_section{
+.first{
     background: url(img/welcometomogo.png) no-repeat center top / cover;
     width: 100%;
     padding-bottom: 20px;
@@ -50,7 +50,7 @@ body{
     margin-top: 22px;
     text-transform: uppercase;
     font-family:  sans-serif;
-    border-bottom: 1px solid transparent;
+    border-bottom: 2px solid transparent;
     display: inline-block;
     font-size: 14px;
 
@@ -58,10 +58,11 @@ body{
 }
 .main_menu:hover{
     color:#fce38a;
-    border-bottom-color: #fce38a;
+    border-bottom: 2px solid #fce38a;
+
 }
 .titles__first{
-    padding-top: 152px;
+    margin-top: 152px;
     font-size: 73px;
     color: #fff;
     font-family: 'Kaushan Script',sans-serif;
@@ -111,7 +112,7 @@ body{
 
 .first_line:first-child {
     border-top: 2px solid #fff;
-    float: left;
+    margin-left: 0;
     margin-top: 160px;
     width: 280px;
     color: #fff;
@@ -122,12 +123,11 @@ body{
 }
 .first_line:nth-child(2) {
     border-top: 2px solid #fff;
-    margin-left: 30px;
+    margin-left: 20px;
     margin-top: 160px;
     width:280px;
     color:#fff;
     font-family: sans-serif;
-    padding-left: 0px;
     text-decoration:none;
     display: inline-flex;
     padding-top: 25px;
@@ -141,7 +141,6 @@ body{
     font-family: sans-serif;
     padding-top: 25px;
     text-decoration:none;
-    padding-left: 0px;
     display: inline-flex;
 }
 .first_line:last-child{
@@ -152,15 +151,15 @@ body{
     font-family: sans-serif;
     padding-top: 25px;
     text-decoration:none;
-    padding-left: 0px;
-    float: right;
+   float: right;
     display: inline-flex;
 }
 .lines a:hover{
     color:#f38181;
 }
-.second_section{
+.second{
 padding-bottom: 100px;
+
 }
 
 .what_we_do{
@@ -198,7 +197,10 @@ padding-bottom: 100px;
     color: #bfbfbf;
     font-size: 15px;
     text-align:center;
-    margin-top: 40px;
+    padding-top: 30px;
+    width: 950px;
+    margin: 0px auto;
+    line-height: 25px;
 
 
 }
@@ -209,14 +211,15 @@ padding-bottom: 100px;
     text-align:center;
     line-height: 1px;
 }
+.picture_list{
+    margin-top: 90px;
+}
 .picture{
     position: relative;
     width: 380px;
     height: 250px;
     overflow:hidden;
     display: inline-block;
-    margin-top: 90px;
-
 }
 .picture__bg{
     position: absolute;
@@ -224,7 +227,7 @@ padding-bottom: 100px;
     left: 0;
     widht: 100%;
     height: 100%;
-    float:left;
+    margin-left: 0px;
     border: 10px solid #95e1d3;
 
 }
@@ -256,11 +259,19 @@ padding-bottom: 100px;
 }
 .picture_second_section:last-child{
     float:right;
-    margin-top: 90px;
+
 }
 .picture_second_section{
-    margin-left: 20px;
-    margin-top: 90px;
+    margin-left: 25px;
+
+}
+.third{
+    background-color:#95e1d3;
+    padding-top: 270px;
+}
+.straight:first-child{
+ border-left: 1px solid #fff;
+    margin-left: 0px;
 }
 
 
