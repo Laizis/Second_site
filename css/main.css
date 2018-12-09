@@ -6,8 +6,8 @@ body{
 }
 .first_section{
     background: url(img/welcometomogo.png) no-repeat center top / cover;
-    height: 1000px;
     width: 100%;
+    padding-bottom: 20px;
 
 }
 .clearfix{
@@ -160,7 +160,7 @@ body{
     color:#f38181;
 }
 .second_section{
-
+padding-bottom: 100px;
 }
 
 .what_we_do{
@@ -196,63 +196,77 @@ body{
 .info{
     font-family: 'Roboto', sans-serif;
     color: #bfbfbf;
-    font-size: 20px;
+    font-size: 15px;
     text-align:center;
     margin-top: 40px;
-    line-height: 10px;
+
 
 }
 .continuation_info{
     font-family:'roboto',sans-serif;
     color: #bfbfbf;
-    font-size: 12px;
+    font-size: 15px;
     text-align:center;
-    margin-top:1px;
+    line-height: 1px;
 }
-.pictures{
+.picture{
+    position: relative;
+    width: 380px;
+    height: 250px;
+    overflow:hidden;
+    display: inline-block;
+    margin-top: 90px;
 
 }
-.first_picture:first-child{
-    background: url("img/users.png");
-    text-decoration: none;
-    font-size: 15px;
-    text-transform: uppercase;
-    font-weight: bold;
+.picture__bg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    widht: 100%;
+    height: 100%;
+    float:left;
+    border: 10px solid #95e1d3;
+
+}
+.picture__gradient{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0, red, orange);
+    opacity: 0;
+}
+.picture__icon{
+    margin: 100px auto 10px;
+    position: relative;
+    width: 24px;
     color: #fff;
-    display: inline-block;
-    float: left;
-    width: 390px;
-    height: 130px;
+}
+.picture:hover .picture__gradient{
+    opacity: 0.3;
+}
+.picture__text{
+    color: #fff;
     text-align: center;
-    padding-top: 130px;
-}
-.first_picture:nth-child(2){
-    float: right;
-    display: inline-flex;
-}
-.first_picture:last-child{
-margin-left: 30px;
-}
-.third_section{
-    height: 220px;
-    margin: 0px auto;
-    background-color: #95e1d3;
-}
-.border_left{
-    display: flex;
-    float: left;
-    border-left: 1px solid #fff;
-}
-.forty_two{
-    color:#fff;
-    font-weight: bold;
-    font-size: 40px;
-}
-.WDP{
+    position: relative;
     text-transform: uppercase;
-    color: #fff;
-    font-size: 10px;
+    font-weight: bold;
+    font-size:20px;
 }
+.picture_second_section:last-child{
+    float:right;
+    margin-top: 90px;
+}
+.picture_second_section{
+    margin-left: 20px;
+    margin-top: 90px;
+}
+
+
+
+
+
 
 
 
