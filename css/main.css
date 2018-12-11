@@ -19,7 +19,7 @@ body{
 }
 .logo{
     display: block;
-    margin-top: 23px;
+    margin-top: 22px;
     font-size: 29px;
     float: left;
     font-family: 'Montserrat', sans-serif;
@@ -46,14 +46,14 @@ body{
 .main_menu{
     color: #fff;
     text-decoration:none;
-    margin-left: 50px;
-    margin-top: 22px;
+    padding-left: 49px;
+    margin-top: 17px;
     text-transform: uppercase;
     font-family:  sans-serif;
     border-bottom: 2px solid transparent;
     display: inline-block;
     font-size: 14px;
-
+    line-height: 30px;
 
 }
 .main_menu:hover{
@@ -62,11 +62,12 @@ body{
 
 }
 .titles__first{
-    margin-top: 152px;
-    font-size: 73px;
+    margin-top: 150px;
+    font-size: 71px;
     color: #fff;
     font-family: 'Kaushan Script',sans-serif;
     text-align: center;
+    letter-spacing: 0.5px;
 }
 .center_text{
     color: #fff;
@@ -76,8 +77,10 @@ body{
     text-align: center;
     margin: 0px auto;
     letter-spacing: 0px;
-    line-height: 135px;
-    margin-top: 30px;
+    line-height: 136px;
+    margin-top: 25px;
+    letter-spacing: 0px;
+
 
 }
 .straight{
@@ -118,56 +121,39 @@ body{
     color: #fff;
     font-family: sans-serif;
     text-decoration: none;
-    padding-top: 25px;
+    padding-top: 20px;
     display: inline-flex;
 }
-.first_line:nth-child(2) {
+
+.first_line {
     border-top: 2px solid #fff;
-    margin-left: 20px;
+    margin-left: 25px;
     margin-top: 160px;
-    width:280px;
-    color:#fff;
+    width: 275px;
+    color: #fff;
     font-family: sans-serif;
-    text-decoration:none;
+    text-decoration: none;
     display: inline-flex;
-    padding-top: 25px;
+    padding-top: 20px;
 }
-.first_line:nth-child(3){
-    border-top: 2px solid #fff;
-    margin-left: 20px;
-    margin-top: 160px;
-    width:280px;
-    color:#fff;
-    font-family: sans-serif;
-    padding-top: 25px;
-    text-decoration:none;
-    display: inline-flex;
+.numbers{
+   font-size: 25px;
 }
-.first_line:last-child{
-    border-top: 2px solid #fff;
-    margin-top: 160px;
-    width:280px;
-    color:#fff;
-    font-family: sans-serif;
-    padding-top: 25px;
-    text-decoration:none;
-   float: right;
-    display: inline-flex;
-}
+
 .lines a:hover{
     color:#f38181;
 }
 .second{
-padding-bottom: 100px;
+padding-bottom: 105px;
 
 }
 
 .what_we_do{
     font-family: 'kaushan script',sans-serif;
-    font-size: 25px;
+    font-size: 24px;
     color: #333333;
     text-align: center;
-    margin-top: 85px;
+    margin-top: 87px;
 
 }
 .Story_about_us{
@@ -177,7 +163,7 @@ padding-bottom: 100px;
     color: #333333;
     text-transform: uppercase;
     margin-top: 10px;
-    font-size: 30px;
+    font-size: 29px;
 
 }
 .straight_second{
@@ -192,16 +178,15 @@ padding-bottom: 100px;
 
 }
 
-.info{
+.information{
     font-family: 'Roboto', sans-serif;
     color: #bfbfbf;
-    font-size: 15px;
+    font-size: 14px;
     text-align:center;
-    padding-top: 30px;
-    width: 950px;
+    padding-top: 15px;
+    width: 1000px;
     margin: 0px auto;
     line-height: 25px;
-
 
 }
 .continuation_info{
@@ -212,7 +197,7 @@ padding-bottom: 100px;
     line-height: 1px;
 }
 .picture_list{
-    margin-top: 90px;
+    margin-top: 98px;
 }
 .picture{
     position: relative;
@@ -267,11 +252,15 @@ padding-bottom: 100px;
 }
 .third{
     background-color:#95e1d3;
-    padding-top: 270px;
+
+
 }
-.straight:first-child{
- border-left: 1px solid #fff;
+
+.straights{
+    display: inline-block;
     margin-left: 0px;
+    padding-bottom: 250px;
+
 }
 
 
