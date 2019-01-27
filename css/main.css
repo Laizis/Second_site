@@ -459,7 +459,7 @@ body{
 }
 .third_table{
     border: 1px solid #e5e5e5;
-    padding:12px 0px 10px 4px;
+    padding:12px 0px 10px 0px;
 }
 .sixth_content_table_second{
     display: inline-block;
@@ -484,21 +484,21 @@ body{
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     font-weight: bold;
-    padding-right:440px;
     position: relative;
     top: -10px;
-    left: 23px;
+    margin-right:444px;
+    left: 25px;
 }
 .picture_second_sixth {
     position:relative;
-    left:10px;
+    left:18px;
 }
 .sixth_content_table_third{
     display: inline-block;
     float:right;
-    border-spacing:0px;
     position:relative;
-    top:-240px;
+    top: -241px;
+
 }
 .picture_fourth_sixth{
     margin-right: 5px;
@@ -510,14 +510,16 @@ body{
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     font-weight: bold;
-    margin-right: 423px;
+    margin-right: 420px;
     position: relative;
     top: -10px;
-    left: 16px;
+    left: 15px;
 }
 .fourth_table{
     border: 1px solid #e5e5e5;
     padding: 12px 0px 10px 0px;
+    position: relative;
+    left: 2px;
 }
 
 .seventh{
