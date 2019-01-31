@@ -43,10 +43,7 @@ q:before, q:after {
     content: '';
     content: none;
 }
-table {
-    border-collapse: collapse;
-    border-spacing: 0;
-}
+
 .first{
     background: url(img/welcometomogo.png) no-repeat center top / cover;
     width: 100%;
@@ -97,7 +94,8 @@ table {
 .main_menu_picture{
     text-decoration:none;
     border-bottom: 2px solid transparent;
-    margin-top:500px;
+    position:relative;
+    top:5px;
 }
 .cart{
     margin-right:36px;
@@ -428,12 +426,12 @@ table {
 }
 .information_fourth{
     display: block;
-    margin-left:60px;
+    margin-left:59px;
     font-size: 15px;
     font-family: 'Roboto',sans-serif;
     width:300px;
     line-height: 25px;
-    margin-top: 10px;
+    margin-top: 11px;
     color: #999999;
 }
 .up_content{
@@ -480,7 +478,7 @@ table {
     position:relative;
     display:inline-block;
     top:10px;
-    right:13px;
+    right:16px;
 }
 .titles_sixth{
     margin-right:425px;
@@ -550,16 +548,16 @@ table {
 }
 .third_table{
     border:1px solid #e5e5e5;
-    padding:12px 0px 9px 15px;
+    padding:12px 0px 10px 23px;
 }
 .titles_sixth_third{
     margin-right:442px;
     position:relative;
-    left: 13px;
+    left: 7px;
     display:inline-block;
     bottom:10px;
     text-transform:uppercase;
-    font-size:14px;
+    font-size:13px;
     font-weight:bold;
 }
 .triangle2{
@@ -599,7 +597,7 @@ table {
     font-size: 13px;
     text-align:center;
     width: 955px;
-    padding-top: 32px;
+    padding-top: 30px;
     margin: 0px auto;
     line-height: 25px;
     letter-spacing: 1px;
@@ -740,11 +738,11 @@ table {
 }
 .photo_jobs{
     font-family: 'Montserrat', sans-serif;
-    font-size:13px;
+    font-size:12px;
     color:#b3b3b3;
-    margin-left:142px;
+    margin-left:141px;
     position:relative;
-    bottom:30px;
+    bottom:25px;
 }
 .eighth_picture_second{
     position: relative;
@@ -767,11 +765,11 @@ table {
 }
 .photo_jobs_second{
     font-family: 'Montserrat', sans-serif;
-    font-size:13px;
+    font-size:12px;
     color:#b3b3b3;
     margin-left:125px;
     position:relative;
-    top:30px;
+    top:33px;
 }
 .eighth_picture_third{
     position: relative;
@@ -795,11 +793,11 @@ table {
 }
 .photo_jobs_third{
     font-family: 'Montserrat', sans-serif;
-    font-size:13px;
+    font-size:12px;
     color:#b3b3b3;
     margin-left:160px;
     position:relative;
-    top:30px;
+    top:34px;
 }
 .eighth{
     padding-bottom:155px;
@@ -840,9 +838,59 @@ table {
     margin-top: 100px;
 }
 .ten{
-    padding-bottom:95px;
+    padding-bottom:103px;
 }
 .work_photo{
-    width:100%;
+    background-size:100%;
+    border-spacing: 0px;
+    position:relative;
+    right:200px;
 }
+.sky{
+    position:relative;
+    bottom:393px;
+}
+.first_pictures{
+    position:relative;
+    bottom:391px;
+}
+.sky_last{
+    position:relative;
+    bottom:393px;
+    left:480px;
+}
+.seventh_text_second{
+    font-family: 'Roboto', sans-serif;
+    color: #999999;
+    display: inline-block;
+    font-size:21px;
+    width: 300px;
+    position:relative;
+    top:56px;
+    left:25px;
+    line-height: 36px;
+    letter-spacing:1px;
+}
+.joshua{
+    border:3px solid #fff;
+    margin-left:33px;
+    display:inline-block;
+    position:relative;
+    top:75px;
+}
+.twelve{
+    position:relative;
+    bottom: 377px;
 
+}
+.triangle_seventh_content_third{
+    border-bottom: 3px solid #cfcfcf;
+    border-right: 3px solid #cfcfcf;
+    transform: rotate(-50grad);
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    position: relative;
+    top: -20px;
+    left:555px;
+}
