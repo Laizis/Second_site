@@ -852,11 +852,11 @@ q:before, q:after {
 }
 .first_pictures{
     position:relative;
-    bottom:391px;
+    bottom:390px;
 }
 .sky_last{
     position:relative;
-    bottom:393px;
+    bottom:392px;
     left:480px;
 }
 .seventh_text_second{
@@ -893,4 +893,89 @@ q:before, q:after {
     position: relative;
     top: -20px;
     left:555px;
+}
+.thirteen{
+    background: url(img/mountain.png) no-repeat center top / cover;
+    padding-top:200px;
+    position:relative;
+    bottom:182px;
+    padding-bottom:105px;
+}
+.header_eighth_second{
+    display: block;
+    margin: 0px auto;
+    text-align: center;
+    position:relative;
+    bottom:88px;
+}
+.straight_third_second{
+    border:none;
+    height:4px;
+    display: flex;
+    justify-items: center;
+    width: 60px;
+    margin-top: 15px;
+    background-color:#f38181;
+}
+.content_thirteen_first{
+    display:inline-block;
+    margin-left:40px;
+    position:relative;
+    bottom:15px;
+
+}
+.content_thirteen_second{
+    display:inline-block;
+    margin-left:92px;
+    position:relative;
+    bottom:14px;
+
+}
+.content_thirteen_third{
+    display:inline-block;
+    margin-left:40px;
+    margin-top:30px;
+
+}
+.content_thirteen_fourth{
+    display:inline-block;
+    margin-left:92px;
+}
+.titles_thirteen{
+    display:inline-block;
+    margin-left:25px;
+    text-transform:uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-size:13px;
+    position:relative;
+    bottom:85px;
+}
+.photo_jobs_fourth{
+    font-family: 'Roboto', sans-serif;
+    font-size:14px;
+    color:#b3b3b3;
+    margin-left:141px;
+    position:relative;
+    bottom: 127px;
+
+}
+.eighth_straight{
+    display:inline-block;
+    border-top: 3px solid #f38181;
+    width:59px;
+    position:relative;
+    right:98px;
+    bottom:95px;
+
+}
+.content_text_thirteen {
+    display:inline-block;
+    width:200px;
+    font-size:15px;
+    line-height:25px;
+    font-family: 'Roboto', sans-serif;
+    color: #b0b0b0;
+    position:relative;
+    right:160px;
+    bottom:18px;
 }
