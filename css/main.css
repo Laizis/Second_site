@@ -312,7 +312,7 @@ q:before, q:after {
     display: inline-block;
 }
 .second_third_pictures{
-    margin-left: 27px;
+    margin-left: 28px;
     width: 380px;
     height: 250px;
     margin-top:10px;
@@ -409,29 +409,55 @@ q:before, q:after {
     margin-top:50px;
 
 }
+.fourths_content_pictures_first{
+    position: relative;
+    top: 22px;
+    right:2px;
+}
 .fourths_content_pictures{
     position: relative;
     top: 22px;
-    left:2px;
+    left: 4px;
 
+
+}
+.titles_fourth_second{
+    text-transform: uppercase;
+    font-family: 'Montserrat',sans-serif;
+    font-size:13px;
+    margin-left: 30px;
+    font-weight: bold;
+    position:relative;
+    bottom:2px;
 }
 .titles_fourth{
     text-transform: uppercase;
     font-family: 'Montserrat',sans-serif;
     font-size:13px;
-    margin-left: 29px;
+    margin-left: 31px;
     font-weight: bold;
     position:relative;
-    top:2px;
+    top:4px;
 }
 .information_fourth{
     display: block;
-    margin-left:59px;
+    margin-left:58px;
     font-size: 15px;
     font-family: 'Roboto',sans-serif;
     width:300px;
     line-height: 25px;
-    margin-top: 13px;
+    margin-top: 15px;
+    color: #999999;
+
+}
+.information_fourth_second{
+    display: block;
+    margin-left:62px;
+    font-size: 15px;
+    font-family: 'Roboto',sans-serif;
+    width:300px;
+    line-height: 25px;
+    margin-top: 15px;
     color: #999999;
 }
 .up_content{
@@ -459,7 +485,7 @@ q:before, q:after {
     text-align: center;
     margin-top: 105px;
     position:relative;
-    top: 5px;
+
 }
 .fifth{
     background: url(img/unique_design.png) no-repeat center top /cover;
@@ -472,7 +498,7 @@ q:before, q:after {
     text-align: center;
     margin-top: 105px;
     position:relative;
-    top: 5px;
+
 }
 .sixth_picture_content{
     position:relative;
@@ -495,6 +521,9 @@ q:before, q:after {
     margin: 0px auto;
     text-align: center;
     padding-top: 105px;
+}
+.sixth{
+    padding-bottom:5px;
 }
 .sixth_content_photo {
     display: inline-block;
@@ -528,11 +557,11 @@ q:before, q:after {
 }
 .first_table{
     border: 1px solid #e5e5e5;
-    padding:15px 2px 9px 15px;
+    padding:15px 2px 11px 15px;
 }
 .second_table{
     border: 1px solid #e5e5e5;
-    padding: 15px 0px 20px 20px;
+    padding: 14px 0px 22px 20px;
 
 }
 .titles_sixth_second{
@@ -544,11 +573,11 @@ q:before, q:after {
 .content_sixth_second{
     display:inline-block;
     float:right;
-    -webkit-border-vertical-spacing: 10px;
+    -webkit-border-vertical-spacing: 11px;
 }
 .third_table{
     border:1px solid #e5e5e5;
-    padding:12px 0px 10px 23px;
+    padding:11px 0px 12px 24px;
 }
 .titles_sixth_third{
     margin-right:442px;
@@ -579,8 +608,7 @@ q:before, q:after {
     height:12px;
     transform: rotate(-50grad);
     position:relative;
-    bottom:2px;
-    left:410px;
+    left:414px;
 }
 .straight_third{
     border:none;
@@ -588,7 +616,7 @@ q:before, q:after {
     display: flex;
     justify-items: center;
     width: 60px;
-    margin-top: 20px;
+    margin-top: 15px;
     background-color:#f38181;
 }
 .second_information{
@@ -618,14 +646,14 @@ q:before, q:after {
     height: 12px;
     margin-left:25px;
     position:relative;
-    top:-20px;
+    top:-23px;
 }
 .speech{
     border:3px solid #95e1d3;
     padding: 40px 40px;
     margin-left: 67px;
     display:inline-block;
-    margin-top: 70px;
+    margin-top: 68px;
 }
 .seventh_text{
         font-family: 'Roboto', sans-serif;
@@ -634,7 +662,7 @@ q:before, q:after {
         font-size:21px;
         width: 300px;
         position:relative;
-        top:54px;
+        top:52px;
         left:55px;
         line-height: 35px;
         letter-spacing:1px;
@@ -647,32 +675,33 @@ q:before, q:after {
     width: 12px;
     height: 12px;
     position: relative;
-    top: -20px;
-    left:590px;
+    top: -23px;
+    left:588px;
 }
 .seventh_straight{
     border-top: 3px solid #f38181;
     width:59px;
     position:relative;
-    top:21px;
-    left:-120px;
+    top:18px;
+    left:-123px;
 
 }
 .jd{
     font-family:'kaushan script', sans-serif;
-    font-size:21px;
+    font-size:22px;
     letter-spacing: 1px;
     color: #333333;
     position: relative;
-    left: 73px;
-    top: -13px;
+    left: 68px;
+    top: -15px;
 }
 .header_eighth{
     display: block;
     margin: 0px auto;
     text-align: center;
-    margin-top:95px;
+    margin-top:100px;
 }
+
 .eighth_pictures{
     position: relative;
     width: 380px;
@@ -806,26 +835,8 @@ q:before, q:after {
     background-color: #f8f8f8;
    padding-bottom:60px;
 }
-.what_we_do_ten{
-    font-family: 'kaushan script',sans-serif;
-    font-size: 24px;
-    color: #333333;
-    text-align: center;
-    margin-top: 90px;
-    position:relative;
-    top:10px;
-}
-.a_ser_ten{
-    font-family:'Montserrat', sans-serif;
-    line-height: 73px;
-    text-transform: uppercase;
-    font-size: 29px;
-    display: block;
-    margin: 0px auto;
-    font-weight: bold;
-    position:relative;
-    top: 5px;
-}
+
+
 .ninth_picture{
     display:inline-block;
     margin-left:10px;
@@ -835,19 +846,17 @@ q:before, q:after {
     display:block;
     margin: 0px auto;
     text-align: center;
-    margin-top: 100px;
+    margin-top: 110px;
 }
 .ten{
-    padding-bottom:103px;
+    padding-bottom:98px;
 }
 .eleventh{
     background: url(img/black_sea.png) no-repeat center top /cover;
     width: 100%;
     padding-bottom:780px;
 }
-.twelve{
-    padding-top:398px;
-}
+
 .work_photo{
     background-size:100%;
     border-spacing: 0px;
@@ -858,13 +867,13 @@ q:before, q:after {
     font-family: 'Roboto', sans-serif;
     color: #999999;
     display: inline-block;
-    font-size:21px;
+    font-size:22px;
     width: 300px;
     position:relative;
     top:56px;
     left:25px;
     line-height: 36px;
-    letter-spacing:1px;
+    word-spacing:1px;
 }
 .joshua{
     border:3px solid #fff;
@@ -876,6 +885,7 @@ q:before, q:after {
 .twelve{
     position:relative;
     bottom: 377px;
+    padding-top:393px;
 }
 .triangle_seventh_content_third{
     border-bottom: 3px solid #cfcfcf;
@@ -885,14 +895,14 @@ q:before, q:after {
     width: 12px;
     height: 12px;
     position: relative;
-    top: -20px;
+    top: -22px;
     left:555px;
 }
 .thirteen{
     background: url(img/mountain.png) no-repeat center top / cover;
     padding-top:200px;
     position:relative;
-    bottom:182px;
+    bottom:178px;
     padding-bottom:105px;
 }
 .header_eighth_second{
@@ -901,6 +911,8 @@ q:before, q:after {
     text-align: center;
     position:relative;
     bottom:88px;
+
+
 }
 .straight_third_second{
     border:none;
@@ -908,7 +920,7 @@ q:before, q:after {
     display: flex;
     justify-items: center;
     width: 60px;
-    margin-top: 15px;
+    margin-top: 12px;
     background-color:#f38181;
 }
 .content_thirteen_first{
@@ -973,7 +985,7 @@ q:before, q:after {
     bottom:18px;
 }
 .fourteenth {
-    margin-top: 15px;
+    margin-top: 23px;
     padding-bottom: 40px;
 }
 .a_ser_third{
@@ -1140,7 +1152,7 @@ background-color: #f8f8f8;
 }
 .straight_sixteenth{
     margin-top:17px;
-    border: 1px solid #cccccc;
+
 
 }
 .icons{
@@ -1178,7 +1190,7 @@ background-color: #f8f8f8;
 }
 .second_content{
     display:inline-block;
-    margin-left:23px;
+    margin-left:25px;
     width:240px;
     position:relative;
     top: 10px;
@@ -1187,7 +1199,7 @@ background-color: #f8f8f8;
 .blogs_pictures{
     display:block;
     position:relative;
-    top:39px;
+    top:37px;
 
 }
 .third_logo{
@@ -1204,7 +1216,7 @@ background-color: #f8f8f8;
     font-family: 'Montserrat', sans-serif;
     width:100px;
     font-size:11px;
-    bottom:25px;
+    bottom:26px;
     word-spacing:2px;
 }
 .sixteenth_months{
@@ -1215,12 +1227,19 @@ background-color: #f8f8f8;
     font-size:13px;
     bottom: 1px;
 }
+.sixteenth_months_last{
+    position:relative;
+    font-family: 'Roboto', sans-serif;
+    color: #e0e0e0;
+    font-size:13px;
+    bottom: 1px;
+}
 .fourth_content{
     float:right;
     display:inline-block;
     margin-top:74px;
     position:relative;
-    right:5px;
+
 }
 .last_titles{
     font-family: 'Montserrat', sans-serif;
