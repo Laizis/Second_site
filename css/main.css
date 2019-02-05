@@ -43,7 +43,6 @@ q:before, q:after {
     content: '';
     content: none;
 }
-
 .first{
     background: url(img/welcometomogo.png) no-repeat center top / cover;
     width: 100%;
@@ -53,8 +52,8 @@ q:before, q:after {
     clear: both;
 }
 .container{
-    width: 1200px;
     margin: 0 auto;
+    max-width:1200px;
 
 
 }
@@ -100,10 +99,9 @@ q:before, q:after {
 .cart{
     margin-right:36px;
 }
-.list-item-picture{
+.list-item:last-child{
     display:inline-block;
     margin-top:3px;
-
 }
 .main_menu:hover{
     color:#fce38a;
@@ -119,21 +117,17 @@ q:before, q:after {
     color: #fff;
     font-family: 'Kaushan Script',sans-serif;
     text-align: center;
-
 }
 .center_text{
     color: #fff;
     font-size: 146px;
-    display: inline-block;
+    display:inline-block;
     text-align: center;
     line-height: 140px;
     margin-top: 40px;
-    margin-bottom:0px;
     font-weight:bold;
     font-family: 'Montserrat', sans-serif;
-    letter-spacing: -1px;
-
-
+    letter-spacing: -5px;
 }
 .straight{
     border:none;
@@ -142,8 +136,6 @@ q:before, q:after {
     width: 60px;
     display: block;
     margin-top:58px;
-
-
 }
 .button{
     border: 2px solid #fff;
@@ -164,7 +156,7 @@ q:before, q:after {
     font-size: 20px;
     clear: both;
 }
-.first_line:first-child {
+.first_line:first-child{
     border-top: 2px solid #fff;
     margin-left: 0;
     margin-top: 158px;
@@ -190,7 +182,7 @@ q:before, q:after {
     letter-spacing: 1px;
 
 }
-.numbers_one{
+.numbers:first-child{
     font-size: 25px;
     line-height: 15px;
     letter-spacing: 1px;
@@ -201,7 +193,7 @@ q:before, q:after {
     letter-spacing: 1px;
     margin-left:8px;
 }
-.numbers_fourth{
+.numbers:last-child{
     font-size: 25px;
     line-height: 15px;
     letter-spacing: 1px;
@@ -226,7 +218,6 @@ q:before, q:after {
     margin-top: 20px;
     font-size: 29px;
     font-weight: bold;
-
 }
 .straight_second{
     border:none;
@@ -236,7 +227,6 @@ q:before, q:after {
     width: 60px;
     margin-top: 35px;
     background-color:#f38181;
-
 }
 .information{
     font-family: 'Roboto', sans-serif;
@@ -249,13 +239,6 @@ q:before, q:after {
     line-height: 25px;
     letter-spacing: 1px;
     font-weight: bold;
-}
-.continuation_info{
-    font-family:'roboto',sans-serif;
-    color: #bfbfbf;
-    font-size: 15px;
-    text-align:center;
-    line-height: 1px;
 }
 .picture{
     position: relative;
@@ -316,7 +299,6 @@ q:before, q:after {
     width: 380px;
     height: 250px;
     margin-top:10px;
-
 }
 .second{
     padding-bottom: 108px;
@@ -324,13 +306,11 @@ q:before, q:after {
 .third {
     background-color: #95e1d3;
     margin: 0 auto;
-
-
 }
 .third_content:first-child{
   border-right: 1px solid #fff;
   border-left: 1px solid #fff;
-    padding: 83px 49px 80px 49px;
+    padding: 94px 49px 92px 49px;
     margin-left: 0px;
     width: 140px;
     text-align: center;
@@ -338,15 +318,6 @@ q:before, q:after {
     display: inline-block;
     margin-right: 0px;
     font-family:'Montserrat',sans-serif;
-
-}
-.a_lot_of_numbers_first{
-    font-size: 71px;
-    font-weight: bold;
-    color: #fff;
-    font-family:'Montserrat',sans-serif;
-    position:relative;
-    bottom: 7px;
 }
 .a_lot_of_numbers{
     font-size: 71px;
@@ -355,16 +326,6 @@ q:before, q:after {
     font-family:'Montserrat',sans-serif;
     position:relative;
     bottom: 12px;
-
-}
-.a_lot_of_words_first{
-    font-size:14px;
-    font-weight: bold;
-    color: #fff;
-    line-height: 38px;
-    position:relative;
-    right:14px;
-    top:2px;
 }
 .a_lot_of_words{
     font-size:14px;
@@ -387,7 +348,6 @@ q:before, q:after {
     margin: 0px auto;
     margin-top:105px;
     text-align:center;
-
 }
 .a_ser{
     font-family:'Montserrat', sans-serif;
@@ -401,25 +361,16 @@ q:before, q:after {
 .straight_second:last-child{
     margin-top:16px;
 }
-.fourth-straight{
+.fourth_straight{
     border:none;
     background-color: #e5e5e5;
     height: 2px;
     width: 1200px;
-    margin-top:50px;
-
-}
-.fourths_content_pictures_first{
-    position: relative;
-    top: 22px;
-    right:2px;
+    margin-top:45px;
 }
 .fourths_content_pictures{
     position: relative;
     top: 22px;
-    left: 4px;
-
-
 }
 .titles_fourth_second{
     text-transform: uppercase;
@@ -428,7 +379,7 @@ q:before, q:after {
     margin-left: 30px;
     font-weight: bold;
     position:relative;
-    bottom:2px;
+    top: 2px;
 }
 .titles_fourth{
     text-transform: uppercase;
@@ -437,22 +388,11 @@ q:before, q:after {
     margin-left: 31px;
     font-weight: bold;
     position:relative;
-    top:4px;
+    top:2px;
 }
 .information_fourth{
     display: block;
     margin-left:58px;
-    font-size: 15px;
-    font-family: 'Roboto',sans-serif;
-    width:300px;
-    line-height: 25px;
-    margin-top: 15px;
-    color: #999999;
-
-}
-.information_fourth_second{
-    display: block;
-    margin-left:62px;
     font-size: 15px;
     font-family: 'Roboto',sans-serif;
     width:300px;
@@ -464,11 +404,6 @@ q:before, q:after {
      margin-top: 32px;
      margin-left: 32px;
      display:inline-block;
-}
-.up_content:last-child{
-    margin-top: 35px;
-    margin-left: 32px;
-    display:inline-block;
 }
 .up_content_second{
     margin-top: 17px;
@@ -483,9 +418,8 @@ q:before, q:after {
     font-size: 24px;
     color: #333333;
     text-align: center;
-    margin-top: 105px;
-    position:relative;
-
+    display:block;
+    margin-top:5px;
 }
 .fifth{
     background: url(img/unique_design.png) no-repeat center top /cover;
@@ -497,8 +431,6 @@ q:before, q:after {
     color: #333333;
     text-align: center;
     margin-top: 105px;
-    position:relative;
-
 }
 .sixth_picture_content{
     position:relative;
@@ -635,7 +567,6 @@ q:before, q:after {
     background-color: #f8f8f8;
     padding-bottom:70px;
     margin-top:585px;
-
 }
 .triangle_seventh_content{
     border-bottom:3px solid #cfcfcf;
@@ -659,13 +590,13 @@ q:before, q:after {
         font-family: 'Roboto', sans-serif;
         color: #999999;
         display: inline-block;
-        font-size:21px;
+        font-size:22px;
         width: 300px;
         position:relative;
-        top:52px;
+        top:55px;
         left:55px;
-        line-height: 35px;
-        letter-spacing:1px;
+        line-height: 36px;
+        word-spacing:1.5px;
 }
 .triangle_seventh_content_second {
     border-bottom: 3px solid #cfcfcf;
@@ -682,8 +613,8 @@ q:before, q:after {
     border-top: 3px solid #f38181;
     width:59px;
     position:relative;
-    top:18px;
-    left:-123px;
+    top:21px;
+    left:-118px;
 
 }
 .jd{
@@ -692,8 +623,8 @@ q:before, q:after {
     letter-spacing: 1px;
     color: #333333;
     position: relative;
-    left: 68px;
-    top: -15px;
+    left: 70px;
+    bottom:10px;
 }
 .header_eighth{
     display: block;
@@ -701,7 +632,6 @@ q:before, q:after {
     text-align: center;
     margin-top:100px;
 }
-
 .eighth_pictures{
     position: relative;
     width: 380px;
@@ -730,8 +660,6 @@ q:before, q:after {
     position:relative;
     bottom:1px;
     left:15px;
-
-
 }
 .second_picture_eighth{
     display: inline-block;
@@ -835,8 +763,6 @@ q:before, q:after {
     background-color: #f8f8f8;
    padding-bottom:60px;
 }
-
-
 .ninth_picture{
     display:inline-block;
     margin-left:10px;
@@ -856,7 +782,6 @@ q:before, q:after {
     width: 100%;
     padding-bottom:780px;
 }
-
 .work_photo{
     background-size:100%;
     border-spacing: 0px;
@@ -911,8 +836,6 @@ q:before, q:after {
     text-align: center;
     position:relative;
     bottom:88px;
-
-
 }
 .straight_third_second{
     border:none;
@@ -934,13 +857,11 @@ q:before, q:after {
     margin-left:92px;
     position:relative;
     bottom:14px;
-
 }
 .content_thirteen_third{
     display:inline-block;
     margin-left:40px;
     margin-top:30px;
-
 }
 .content_thirteen_fourth{
     display:inline-block;
@@ -962,7 +883,6 @@ q:before, q:after {
     margin-left:141px;
     position:relative;
     bottom: 127px;
-
 }
 .eighth_straight{
     display:inline-block;
@@ -971,7 +891,6 @@ q:before, q:after {
     position:relative;
     right:98px;
     bottom:95px;
-
 }
 .content_text_thirteen {
     display:inline-block;
@@ -1046,7 +965,6 @@ q:before, q:after {
     color: #333333;
     font-size:13px;
     word-spacing: 1px;
-
 }
 .content_information{
     font-family: 'Roboto', sans-serif;
@@ -1098,11 +1016,9 @@ q:before, q:after {
     width:100%;
     text-align: center;
     padding-bottom: 50px;
-
 }
 .map_on{
     margin-top:55px;
-
 }
 .fifteenth_text{
     display:block;
@@ -1111,13 +1027,11 @@ q:before, q:after {
     color: #f38181;
     font-size:24px;
     margin-top:15px;
-
 }
 .fifteenth_straight{
     width:58px;
     border: 2px solid #f38181;
     margin-top:14px;
-
 }
 .sixteenth {
 background-color: #f8f8f8;
@@ -1152,8 +1066,6 @@ background-color: #f8f8f8;
 }
 .straight_sixteenth{
     margin-top:17px;
-
-
 }
 .icons{
     margin-top:15px;
@@ -1194,19 +1106,17 @@ background-color: #f8f8f8;
     width:240px;
     position:relative;
     top: 10px;
-
 }
 .blogs_pictures{
     display:block;
     position:relative;
     top:37px;
-
 }
 .third_logo{
     font-size:13px;
     color:#333333;
     text-transform: uppercase;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat',sans-serif;
 }
 .sixteenth_text{
     position:relative;
@@ -1239,17 +1149,15 @@ background-color: #f8f8f8;
     display:inline-block;
     margin-top:74px;
     position:relative;
-
 }
-.last_titles{
+.last_titles {
     font-family: 'Montserrat', sans-serif;
     color: #333333;
     font-size: 13px;
     text-transform: uppercase;
-    position:relative;
-    top:2px;
-    left:2px;
-
+    position: relative;
+    top: 2px;
+    left: 2px;
 }
 .last_table {
     display: block;
@@ -1273,7 +1181,6 @@ background-color: #f8f8f8;
     top:48px;
     font-family: 'Roboto',sans-serif;
     font-size:12px;
-
 }
 .last_straight{
     margin-top:73px;
